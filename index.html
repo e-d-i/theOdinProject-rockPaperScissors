@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>TOP: Rock Paper Scissors</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="src/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="src/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="src/favicons/favicon-16x16.png">
+		<link rel="manifest" href="src/favicons/site.webmanifest">
+		<link rel="mask-icon" href="src/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="src/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#2d89ef">
+		<meta name="msapplication-config" content="src/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+    <script src="https://kit.fontawesome.com/e9e00aae41.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="src/css/rockPaperScissors.css">
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Rock Paper Scissors</h1>
+      <p>Are you ready to save the world from an apocalypse in a First-to-Five-Points battle?</p>
+    </header>
+
+    <div class="scoreBoard">
+      <div id="playerLabel" class="label">Player</div>
+      <div id="machinesLabel" class="label">Machines</div>
+      <span id="playerScore">0</span>:<span id="machinesScore">0</span>
+    </div>
+
+    <div class="finalOutcome">
+      <p>Make your move.</p>
+    </div>
+
+    <div class="weapons">
+      <div class="weapon">
+        <i class="far fa-hand-rock" id="rock"></i>
+      </div>
+      <div class="weapon">
+        <i class="far fa-hand-paper" id="paper"></i>
+      </div>
+      <div class="weapon">
+        <i class="far fa-hand-scissors" id="scissors"></i>
+      </div>
+    </div>
+
+    <p id="subtitle">Choose your weapon!</p>
+
+    <script src="rockPaperScissors.js"></script>
+
+  </body>
+
+</html>

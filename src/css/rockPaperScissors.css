@@ -1,0 +1,141 @@
+/* orbitron-regular - latin */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/orbitron-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/orbitron-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/orbitron-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/orbitron-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/orbitron-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/orbitron-v17-latin-regular.svg#Orbitron') format('svg'); /* Legacy iOS */
+}
+
+/* orbitron-500 - latin */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/orbitron-v17-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/orbitron-v17-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/orbitron-v17-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/orbitron-v17-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/orbitron-v17-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/orbitron-v17-latin-500.svg#Orbitron') format('svg'); /* Legacy iOS */
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Orbitron", Arial, Verdana, Tahoma, sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(#434343), to(#000));
+  background: -o-linear-gradient(top, #000, #434343, #000);
+  background: linear-gradient(to bottom, #000, #434343, #000);
+  color: #FFF;
+  line-height: 1.5;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 25px;
+}
+
+header > p {
+  font-size: 18px;
+}
+
+.scoreBoard {
+  border: 2.5px solid #FFD700;
+  border-radius: 2.5px;
+  width: 220px;
+  margin: 25px auto;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px 20px;
+  position: relative;
+}
+
+.label {
+  background: #F00;
+  font-size: 1rem;
+  padding: 4px 8px;
+}
+
+#playerLabel {
+  position: absolute;
+  top: 28px;
+  left: -38px;
+}
+
+#machinesLabel {
+  position: absolute;
+  top: 28px;
+  right: -55px;
+}
+
+#playerScore, #machinesScore {
+  color: #FFD700;
+}
+
+.finalOutcome > p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.weapons {
+  text-align: center;
+  font-size: 80px;
+  margin: 25px 0;
+}
+
+.noPointerEvents {
+  pointer-events: none;
+}
+
+.weapon {
+  display: inline-block;
+  color: #FFF;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.weapon:hover {
+  cursor: pointer;
+}
+
+.goldenGlow {
+  color: #FFD700;
+  text-shadow: 0 0 10px goldenrod;
+}
+
+.redGlow {
+  color: #FF0000;
+  text-shadow: 0 0 10px darkred;
+}
+
+.greyGlow {
+  color: #D3D3D3;
+  text-shadow: 0 0 10px darkgray;
+}
+
+#subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 18px;
+}
