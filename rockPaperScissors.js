@@ -16,9 +16,7 @@ function computerPlay() {
 }
 
 function capitalize(string) {
-	return (
-		string.charAt(0).toUpperCase() + string.toLowerCase().slice(1)
-	);
+	return (string.charAt(0).toUpperCase() + string.toLowerCase().slice(1));
 }
 
 function win(player, computer) {
@@ -68,10 +66,10 @@ function game(playerSelection) {
 			break;
 	}
 	if (playerScore >= 5 && computerScore < 5) {
-    finalOutcome_p.textContent = "Game Over - You Win! Humanity is safe for now...";
-  } else if (playerScore < 5 && computerScore >= 5) {
-    finalOutcome_p.textContent = "Game Over - You failed! The world is lost...";
-  }
+		finalOutcome_p.textContent = "Game Over - You Win! Humanity is safe for now...";
+	} else if (playerScore < 5 && computerScore >= 5) {
+		finalOutcome_p.textContent = "Game Over - You failed! The world is lost...";
+	}
 	restartGame();
 }
 
